@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
 
@@ -24,4 +25,10 @@ app.listen (3000, () => {
 
 }
 
+);
+
+app.get('/' , (req,res)=>{
+
+    
+}
 )
